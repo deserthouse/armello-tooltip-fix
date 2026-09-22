@@ -1,6 +1,6 @@
 <div align="center">
 
-# Armello Tooltip Fix
+# <img src=docs/logo.png width=360 alt=Armello/> Tooltip Fix
 
 **BepInEx IL2CPP 补丁 —— 修复卡牌描述中 tooltip 链接标签跨行泄露**
 
