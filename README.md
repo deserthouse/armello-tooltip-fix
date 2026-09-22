@@ -13,7 +13,6 @@
 [![Game](https://img.shields.io/badge/Game-Armello-orange.svg)](https://store.steampowered.com/app/290340/Armello/)
 [![Release](https://img.shields.io/github/v/release/deserthouse/armello-tooltip-fix?include_prereleases&color=yellow&style=flat-square)](https://github.com/deserthouse/armello-tooltip-fix/releases)
 
-<sub>EN Armello</sub>　<sub>简中 阿门罗</sub>　<sub>繁中 阿門羅</sub>
 
 </div>
 
