@@ -30,6 +30,16 @@ Armello card descriptions contain tooltip links (e.g., **Explode Pool**, **Pact*
 
 This bug exists in the game engine itself (Unity 2019.4 / NGUI / IL2CPP) and triggers in the official version too — it's just that official Chinese text lengths happen to mostly avoid the trigger zone. Any mod that changes text length in card descriptions can trigger it.
 
+### Before / After (Moon Scythe · present in the official Chinese version too)
+
+**Before** — the `[/url]` tag is split across a line break and leaks as visible garbled text:
+
+<img src="docs/screenshots/before.png" width="780" alt="Before: [/url] fragment visible in the card description"/>
+
+**After** — text is clean, and keyword hover tooltips still work:
+
+<img src="docs/screenshots/after.png" width="780" alt="After: clean description, tooltip working"/>
+
 ## ✨ The Fix
 
 Hooks `NGUIText.WrapText` output via [Harmony](https://github.com/pardeike/Harmony) postfix, detecting `[/url]` tags split by `\n` and rejoining them so the parser consumes them correctly.

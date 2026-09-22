@@ -29,6 +29,16 @@ Armello 的卡牌描述中包含 tooltip 連結（如卡牌效果中的**爆發�
 
 此 bug 存在於遊戲引擎本身（Unity 2019.4 / NGUI / IL2CPP），官方版本同樣會觸發——只是官方中文的文字長度恰好多數不在觸發區。任何修改遊戲文字導致描述長度變化的 mod 都可能觸發此問題。
 
+### 效果對比（月亮鐮刀 · 官方中文同樣存在此問題）
+
+**修復前**——`[/url]` 被換行拆斷，洩露為可見亂碼文字：
+
+<img src="docs/screenshots/before.png" width="780" alt="修復前：卡牌描述中可見 [/url] 殘片"/>
+
+**修復後**——文字乾淨，關鍵詞懸停提示（tooltip）正常運作：
+
+<img src="docs/screenshots/after.png" width="780" alt="修復後：描述乾淨，懸停提示正常"/>
+
 ## ✨ 修復方案
 
 透過 [Harmony](https://github.com/pardeike/Harmony) hook `NGUIText.WrapText` 的輸出端，在換行完成後檢測被 `\n` 拆斷的 `[/url]` 標籤，移除標籤內的換行符使標籤恢復完整，讓解析器正確消費。
