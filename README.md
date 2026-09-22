@@ -1,8 +1,9 @@
 <div align="center">
 
-# <img src=docs/logo.png width=360 alt=Armello/> Tooltip Fix
+# <img src="docs/logo_english.png" width="280" alt="Armello"/> Tooltip Fix
 
 **BepInEx IL2CPP 补丁 —— 修复卡牌描述中 tooltip 链接标签跨行泄露**
+n<sub><img src="docs/logo_schinese.png" width="72" alt="阿门罗"/> 阿门罗</sub>　<sub><img src="docs/logo_tchinese.png" width="72" alt="阿門羅"/> 阿門羅</sub>
 
 让每一张卡牌的描述都干净显示
 
