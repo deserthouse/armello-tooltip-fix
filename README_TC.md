@@ -2,7 +2,7 @@
 
 [簡體中文](README.md) · [繁體中文](README_TC.md) · [English](README_EN.md)
 
-<img src="docs/logo_english.png" width="280" alt="Armello"/>
+<img src="docs/logo_tc.png" width="280" alt="Armello"/>
 
 # Armello Tooltip Fix
 
