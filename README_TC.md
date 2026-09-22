@@ -4,9 +4,9 @@
 
 <img src="docs/logo_tc.png" width="280" alt="愛門羅"/>
 
-# Armello Tooltip Fix
-
 <img src="docs/slogan.png" width="380" alt="By Armellians, for Armellians"/>
+
+# Armello Tooltip Fix
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-安裝)
