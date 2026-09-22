@@ -1,16 +1,17 @@
 <div align="center">
 
-# <img src="docs/logo_english.png" width="280" alt="Armello"/> Tooltip Fix
+<img src="docs/logo_english.png" width="280" alt="Armello"/>
 
-**BepInEx IL2CPP 补丁 —— 修复卡牌描述中 tooltip 链接标签跨行泄露**
-<sub><img src="docs/logo_schinese.png" width="72" alt="阿门罗"/> 阿门罗</sub>　<sub><img src="docs/logo_tchinese.png" width="72" alt="阿門羅"/> 阿門羅</sub>
+# Armello Tooltip Fix
 
-<img src="docs/slogan.png" width="420" alt="By Armellians, for Armellians"/>
+<img src="docs/slogan.png" width="380" alt="By Armellians, for Armellians"/>
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-安装)
 [![Game](https://img.shields.io/badge/Game-Armello-orange.svg)](https://store.steampowered.com/app/290340/Armello/)
 [![Release](https://img.shields.io/github/v/release/deserthouse/armello-tooltip-fix?include_prereleases&color=yellow&style=flat-square)](https://github.com/deserthouse/armello-tooltip-fix/releases)
+
+<sub>EN Armello</sub>　<sub>简中 阿门罗</sub>　<sub>繁中 阿門羅</sub>
 
 </div>
 
