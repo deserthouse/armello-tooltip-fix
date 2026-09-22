@@ -28,9 +28,9 @@ Armello card descriptions contain tooltip links (e.g., **Explode Pool**, **Pact*
 
 **Bug**: The line-wrapping algorithm can break in the middle of the 6-character `[/url]` tag (e.g., `[/ur` at end of line, `l]` at start of next), causing the tag parser to fail to recognize the complete tag — rendering it as visible garbled text (like `[/ur l]`).
 
-This bug exists in the game engine itself (Unity 2019.4 / NGUI / IL2CPP), not in any third-party mod or patch. The official Chinese version avoids it by tuning the text length of each line — a compromise I was not willing to make, which is why this patch exists. Note that any mod that changes text length in card descriptions can trigger the problem, and this patch should in theory fix all such cases.
+This bug is caused by the game engine itself (Unity 2019.4 / NGUI / IL2CPP), not by third-party modifications. The official Chinese version avoids it by tuning the text length of each line — a compromise I was not willing to make, which is why this patch exists. Note that any mod that changes text length in card descriptions can trigger the problem, and this patch should in theory fix all such cases.
 
-### Before / After (Moon Scythe as an example — note the issue also exists in the official Chinese version)
+### Before / After (Moon Scythe as an example — note this issue is caused by a bug in the game engine itself, unrelated to third-party modifications)
 
 **Before** — the `[/url]` tag is split across a line break and leaks as visible garbled text:
 
