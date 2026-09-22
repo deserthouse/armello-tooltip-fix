@@ -1,0 +1,14 @@
+Armello Tooltip Fix v1.0
+=========================
+
+修复卡牌描述中 tooltip 链接标签跨行泄露为乱码文字的引擎 bug。
+
+【安装】把压缩包内全部内容解压到 Armello 游戏根目录
+（Steam 库中右键 Armello → 管理 → 浏览本地文件）。
+
+【卸载】删除游戏根目录的 winhttp.dll 即可。
+
+【注意】本补丁不修改任何游戏文件，与任何文本/翻译 mod 兼容。
+问题反馈：https://github.com/deserthouse/armello-tooltip-fix/issues
+
+绝大部分调研与开发工作由 AI（大语言模型）完成，人类负责需求、测试与验收。
