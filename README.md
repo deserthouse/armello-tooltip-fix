@@ -5,7 +5,7 @@
 **BepInEx IL2CPP 补丁 —— 修复卡牌描述中 tooltip 链接标签跨行泄露**
 <sub><img src="docs/logo_schinese.png" width="72" alt="阿门罗"/> 阿门罗</sub>　<sub><img src="docs/logo_tchinese.png" width="72" alt="阿門羅"/> 阿門羅</sub>
 
-让每一张卡牌的描述都干净显示
+<img src="docs/slogan.png" width="420" alt="By Armellians, for Armellians"/>
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-安装)
