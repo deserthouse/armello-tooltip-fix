@@ -43,11 +43,11 @@ Armello 的卡牌描述中包含 tooltip 連結（如卡牌效果中的**爆發�
 
 **[📥 前往 Releases 下載最新版本](https://github.com/deserthouse/armello-tooltip-fix/releases)**
 
-1. 下載 `ArmelloTooltipFix.zip` 並解壓
+1. 下載 `ArmelloTooltipFix-v1.0.zip` 並解壓
 2. 將解壓出的全部檔案（`BepInEx/` `dotnet/` `winhttp.dll` 等）複製到 Armello 遊戲根目錄（Steam 庫中右鍵 Armello → 管理 → 瀏覽本地檔案）
 3. 啟動遊戲，完成
 
-> 補丁不修改任何遊戲檔案，刪除 `winhttp.dll` 即可完全解除安裝。
+> 補丁不修改任何遊戲檔案，刪除 `winhttp.dll` 即可停用補丁；如需徹底清理，一併刪除 `BepInEx/`、`dotnet/`、`doorstop_config.ini` 與 `.doorstop_version`。
 
 ### 與文字 mod 的相容性
 

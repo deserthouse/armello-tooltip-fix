@@ -44,11 +44,11 @@ Hooks `NGUIText.WrapText` output via [Harmony](https://github.com/pardeike/Harmo
 
 **[📥 Download from Releases](https://github.com/deserthouse/armello-tooltip-fix/releases)**
 
-1. Download `ArmelloTooltipFix.zip` and extract
+1. Download `ArmelloTooltipFix-v1.0.zip` and extract
 2. Copy all contents (`BepInEx/`, `dotnet/`, `winhttp.dll`, etc.) to the Armello game root directory (in Steam, right-click Armello → Manage → Browse Local Files)
 3. Launch the game
 
-> The patch does not modify any game files. Delete `winhttp.dll` to completely uninstall.
+> The patch does not modify any game files. Delete `winhttp.dll` to disable it; for a full cleanup, also remove `BepInEx/`, `dotnet/`, `doorstop_config.ini`, and `.doorstop_version`.
 
 ### Compatibility
 
