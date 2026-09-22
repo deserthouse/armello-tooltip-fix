@@ -16,6 +16,8 @@
 ---
 
 > **Armello Tooltip Fix** 是一个 [BepInEx](https://github.com/BepInEx/BepInEx) IL2CPP 补丁，修复 Armello 游戏引擎中卡牌描述的 tooltip 链接标签（`[/url]`）在换行时被拆断、泄露为可见乱码文字的 bug。
+>
+> 🧩 [Armello 简体中文重译补丁](https://github.com/deserthouse/armello-chinese-localization) 的推荐搭配——两者独立安装，互不依赖。
 
 ## 🐛 问题描述
 
