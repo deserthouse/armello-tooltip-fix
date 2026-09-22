@@ -2,9 +2,9 @@
 
 [简体中文](README.md) · [繁體中文](README_TC.md) · [English](README_EN.md)
 
-<img src="docs/logo_english.png" width="280" alt="Armello"/>
+<p><img src="docs/logo_english.png" width="280" alt="Armello"/></p>
 
-<img src="docs/slogan.png" width="380" alt="By Armellians, for Armellians"/>
+<p><img src="docs/slogan.png" width="380" alt="By Armellians, for Armellians"/></p>
 
 # Armello Tooltip Fix
 
@@ -16,7 +16,7 @@
 
 </div>
 
----
+<br/>
 
 > **Armello Tooltip Fix** is a [BepInEx](https://github.com/BepInEx/BepInEx) IL2CPP patch that fixes an Armello engine bug where tooltip link tags (`[/url]`) in card descriptions get split across line breaks and leak as visible garbled text.
 >

@@ -2,9 +2,9 @@
 
 [简体中文](README.md) · [繁體中文](README_TC.md) · [English](README_EN.md)
 
-<img src="docs/logo_sc.png" width="280" alt="阿门罗"/>
+<p><img src="docs/logo_sc.png" width="280" alt="阿门罗"/></p>
 
-<img src="docs/slogan.png" width="380" alt="By Armellians, for Armellians"/>
+<p><img src="docs/slogan.png" width="380" alt="By Armellians, for Armellians"/></p>
 
 # Armello Tooltip Fix
 
@@ -16,7 +16,7 @@
 
 </div>
 
----
+<br/>
 
 > **Armello Tooltip Fix** 是一个 [BepInEx](https://github.com/BepInEx/BepInEx) IL2CPP 补丁，修复 Armello 游戏引擎中卡牌描述的 tooltip 链接标签（`[/url]`）在换行时被拆断、泄露为可见乱码文字的 bug。
 >
