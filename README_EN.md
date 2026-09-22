@@ -30,7 +30,7 @@ Armello card descriptions contain tooltip links (e.g., **Explode Pool**, **Pact*
 
 This bug is caused by the game engine itself (Unity 2019.4 / NGUI / IL2CPP), not by third-party modifications. The official Chinese version avoids it by tuning the text length of each line — a compromise I was not willing to make, which is why this patch exists. Note that any mod that changes text length in card descriptions can trigger the problem, and this patch should in theory fix all such cases.
 
-### Before / After (Moon Scythe as an example — note this issue is caused by a bug in the game engine itself, unrelated to third-party modifications)
+### Before / After (using the Moon Scythe card as an example — note this issue is caused by a bug in the game engine itself, unrelated to third-party modifications)
 
 **Before** — the `[/url]` tag is split across a line break and leaks as visible garbled text:
 
