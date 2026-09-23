@@ -98,6 +98,7 @@ dotnet build -c Release
 
 ## 📄 版权声明
 
+- 页面截图与官方宣传 Logo 系文档目的的合理引用，版权归 League of Geeks 所有
 - 本补丁为非商业粉丝项目，仅供已购买 Armello 的玩家个人使用
 - 《Armello》版权归 League of Geeks 所有，本仓库与官方无任何关联
 - 补丁按"现状"（AS IS）提供，使用风险自负

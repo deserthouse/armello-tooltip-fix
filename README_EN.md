@@ -96,6 +96,7 @@ This patch contains no human contribution; the vast majority of the work was don
 
 ## 📄 License
 
+- Screenshots and official promotional logos are used for documentation purposes; all copyrights belong to League of Geeks.
 - This is a non-commercial fan project for personal use by players who have purchased Armello.
 - Armello is copyrighted by League of Geeks. This repository is not affiliated with the official team.
 - Provided "AS IS", use at your own risk.

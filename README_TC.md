@@ -95,6 +95,7 @@ dotnet build -c Release
 
 ## 📄 版權宣告
 
+- 頁面截圖與官方宣傳 Logo 係文件目的的合理引用，版權歸 League of Geeks 所有
 - 本補丁為非商業粉絲專案，僅供已購買 Armello 的玩家個人使用
 - 《Armello》版權歸 League of Geeks 所有，本倉庫與官方無任何關聯
 - 補丁按「現狀」提供，使用風險自負
