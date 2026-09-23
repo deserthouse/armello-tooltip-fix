@@ -101,6 +101,8 @@ dotnet build -c Release
 - 本补丁为非商业粉丝项目，仅供已购买 Armello 的玩家个人使用
 - 《Armello》版权归 League of Geeks 所有，本仓库与官方无任何关联
 - 补丁按"现状"（AS IS）提供，使用风险自负
+- 发行包内捆绑的 BepInEx 运行时与第三方组件（含 LGPL 组件）版权归各自所有者，完整清单与许可全文见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)（发行包内随附 `THIRD-PARTY-NOTICES.txt`）
+- 发行包内捆绑的 BepInEx 运行时与第三方组件（含 LGPL 组件）版权归各自所有者，完整清单与许可全文见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)（发行包内随附 `THIRD-PARTY-NOTICES.txt`）
 
 ## ⚠️ 免责声明
 

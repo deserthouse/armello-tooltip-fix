@@ -99,6 +99,8 @@ This patch contains no human contribution; the vast majority of the work was don
 - This is a non-commercial fan project for personal use by players who have purchased Armello.
 - Armello is copyrighted by League of Geeks. This repository is not affiliated with the official team.
 - Provided "AS IS", use at your own risk.
+- The bundled BepInEx runtime and third-party components (including LGPL-licensed ones) belong to their respective owners. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the full inventory and license texts (also bundled in the release archive as `THIRD-PARTY-NOTICES.txt`).
+- The bundled BepInEx runtime and third-party components (including LGPL-licensed ones) belong to their respective owners. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the full inventory and license texts (also bundled in the release archive as `THIRD-PARTY-NOTICES.txt`).
 
 ## ⚠️ Disclaimer
 
