@@ -5,28 +5,37 @@
     <LangVersion>latest</LangVersion>
     <Nullable>disable</Nullable>
     <RestorePackages>false</RestorePackages>
+    <!-- Armello 安装根目录（须包含 BepInEx\ 子目录）。给定方式（优先级从高到低）：
+         1) dotnet build -p:ArmelloDir="C:\path\to\Armello"
+         2) 环境变量 ARMELLO_DIR
+         游戏与 BepInEx 的 DLL 不随仓库分发；未设置或路径不含 BepInEx 时构建明确报错。 -->
+    <ArmelloDir Condition="'$(ArmelloDir)' == ''">$(ARMELLO_DIR)</ArmelloDir>
   </PropertyGroup>
+  <Target Name="RequireArmelloDir" BeforeTargets="BeforeBuild">
+    <Error Condition="'$(ArmelloDir)' == ''" Text="未设置 Armello 游戏目录：用 -p:ArmelloDir=... 或环境变量 ARMELLO_DIR 指定（须为包含 BepInEx\ 的安装根目录）。仓库不随附游戏/BepInEx DLL。" />
+    <Error Condition="'$(ArmelloDir)' != '' and !Exists('$(ArmelloDir)\BepInEx\core\BepInEx.Core.dll')" Text="ArmelloDir 下未找到 BepInEx\core\BepInEx.Core.dll：请确认指向已安装 BepInEx 的 Armello 安装根目录（当前值：$(ArmelloDir)）。" />
+  </Target>
   <ItemGroup>
     <Reference Include="BepInEx.Core">
-      <HintPath>D:\Program Files (x86)\SteamLibrary\steamapps\common\Armello\BepInEx\core\BepInEx.Core.dll</HintPath>
+      <HintPath>$(ArmelloDir)\BepInEx\core\BepInEx.Core.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx.Unity.IL2CPP">
-      <HintPath>D:\Program Files (x86)\SteamLibrary\steamapps\common\Armello\BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath>
+      <HintPath>$(ArmelloDir)\BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath>
     </Reference>
     <Reference Include="0Harmony">
-      <HintPath>D:\Program Files (x86)\SteamLibrary\steamapps\common\Armello\BepInEx\core\0Harmony.dll</HintPath>
+      <HintPath>$(ArmelloDir)\BepInEx\core\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Il2CppInterop.Runtime">
-      <HintPath>D:\Program Files (x86)\SteamLibrary\steamapps\common\Armello\BepInEx\core\Il2CppInterop.Runtime.dll</HintPath>
+      <HintPath>$(ArmelloDir)\BepInEx\core\Il2CppInterop.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>D:\Program Files (x86)\SteamLibrary\steamapps\common\Armello\BepInEx\interop\Assembly-CSharp.dll</HintPath>
+      <HintPath>$(ArmelloDir)\BepInEx\interop\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Il2Cppmscorlib">
-      <HintPath>D:\Program Files (x86)\SteamLibrary\steamapps\common\Armello\BepInEx\interop\Il2Cppmscorlib.dll</HintPath>
+      <HintPath>$(ArmelloDir)\BepInEx\interop\Il2Cppmscorlib.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>D:\Program Files (x86)\SteamLibrary\steamapps\common\Armello\BepInEx\unity-libs\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>$(ArmelloDir)\BepInEx\unity-libs\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
