@@ -7,3 +7,4 @@
 - BepInEx 6.0.0-pre.2 (Unity IL2CPP, x64) with console disabled by default
 - LGPL-2.1/3.0 and MIT third-party notices included (full texts in package)
 - Before/after comparison screenshot: Moon Scythe (present in official version too)
+- 2026-09-24: release archive repackaged twice after the initial upload (bundling `THIRD-PARTY-NOTICES.txt`); no code change. The current asset's size/SHA-256 and the superseded historical hashes are recorded in the v1.0 Release notes.

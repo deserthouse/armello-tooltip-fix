@@ -77,11 +77,13 @@ Armello 的卡牌描述中包含 tooltip 連結（如卡牌效果中的**爆發�
 ```bash
 git clone https://github.com/deserthouse/armello-tooltip-fix.git
 cd armello-tooltip-fix/src
+# 指向你本機的 Armello 安裝根目錄（須含 BepInEx\ 子目錄；遊戲/BepInEx DLL 不隨倉庫分發）
+export ARMELLO_DIR="/d/Program Files (x86)/SteamLibrary/steamapps/common/Armello"  # 示例，按需修改
 dotnet build -c Release
 # 輸出: bin/Release/net8.0/ArmelloUrlFix.dll
 ```
 
-專案檔案中的 DLL 引用路徑需要指向你本機的 BepInEx interop 目錄。
+DLL 引用統一取自 `ArmelloDir`（`-p:ArmelloDir=...` 或環境變數 `ARMELLO_DIR`）；未設置或所指目錄無 BepInEx 時構建會明確報錯，專案檔案不再包含寫死的機器路徑。
 
 ### 已知侷限
 
@@ -99,7 +101,6 @@ dotnet build -c Release
 - 本補丁為非商業粉絲專案，僅供已購買 Armello 的玩家個人使用
 - 《Armello》版權歸 League of Geeks 所有，本倉庫與官方無任何關聯
 - 補丁按「現狀」提供，使用風險自負
-- 發行包內捆綁的 BepInEx 執行時與第三方元件（含 LGPL 元件）版權歸各自所有者，完整清單與許可全文見 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)（發行包內隨附 `THIRD-PARTY-NOTICES.txt`）
 - 發行包內捆綁的 BepInEx 執行時與第三方元件（含 LGPL 元件）版權歸各自所有者，完整清單與許可全文見 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)（發行包內隨附 `THIRD-PARTY-NOTICES.txt`）
 
 ## ⚠️ 免責聲明

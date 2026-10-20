@@ -78,11 +78,13 @@ Fully compatible with any Armello text/translation mod (including [armello-chine
 ```bash
 git clone https://github.com/deserthouse/armello-tooltip-fix.git
 cd armello-tooltip-fix/src
+# Point at your local Armello install root (must contain BepInEx\; game/BepInEx DLLs are not distributed in this repo)
+export ARMELLO_DIR="/d/Program Files (x86)/SteamLibrary/steamapps/common/Armello"  # example — adjust
 dotnet build -c Release
 # Output: bin/Release/net8.0/ArmelloUrlFix.dll
 ```
 
-DLL references in the project file point to your local BepInEx interop directory.
+DLL references are resolved from `ArmelloDir` (`-p:ArmelloDir=...` or the `ARMELLO_DIR` environment variable); the build fails with a clear error when it is unset or the directory lacks BepInEx — no machine-specific paths are committed.
 
 ### Known Limitations
 
@@ -100,7 +102,6 @@ This patch contains no human contribution; the vast majority of the work was don
 - This is a non-commercial fan project for personal use by players who have purchased Armello.
 - Armello is copyrighted by League of Geeks. This repository is not affiliated with the official team.
 - Provided "AS IS", use at your own risk.
-- The bundled BepInEx runtime and third-party components (including LGPL-licensed ones) belong to their respective owners. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the full inventory and license texts (also bundled in the release archive as `THIRD-PARTY-NOTICES.txt`).
 - The bundled BepInEx runtime and third-party components (including LGPL-licensed ones) belong to their respective owners. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the full inventory and license texts (also bundled in the release archive as `THIRD-PARTY-NOTICES.txt`).
 
 ## ⚠️ Disclaimer
