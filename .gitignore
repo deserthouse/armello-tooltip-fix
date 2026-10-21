@@ -1,5 +1,1 @@
-bin/
-obj/
-*.user
-.vs/
-release/ArmelloTooltipFix/
+release/

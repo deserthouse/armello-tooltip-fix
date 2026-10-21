@@ -1,6 +1,6 @@
 # 第三方组件清单与许可 / Third-Party Notices
 
-本文件覆盖 `release/` 发行包内随附的全部第三方组件。仓库根目录的 [LICENSE](LICENSE)（MIT）仅覆盖自研部分——`src/` 中的 ArmelloUrlFix 插件、README/docs 与安装说明；不覆盖下列组件，其版权与许可归各自所有者。
+本文件覆盖发行包（Release 附件 `ArmelloTooltipFix-v1.0.zip`，其内随附 `THIRD-PARTY-NOTICES.txt` 同文）内的全部第三方组件。仓库根目录的 [LICENSE](LICENSE)（MIT）仅覆盖自研部分——`src/` 中的 ArmelloUrlFix 插件、README/docs 与安装说明；不覆盖下列组件，其版权与许可归各自所有者。
 
 发行包由 BepInEx 官方发行包（BepInEx-Unity.IL2CPP-win-x64 6.0.0-pre.2，内含 .NET 6.0.7 运行时）原样随附，加上本项目插件构成；下列组件均为未经修改的上游二进制，对应源码（"相应的源码形式"）可由上游链接获取。
 
@@ -29,7 +29,7 @@ LGPL 组件（BepInEx 与 Unity Doorstop：LGPL-2.1；Il2CppInterop：LGPL-3.0�
 
 ## English summary
 
-This file covers all third-party components bundled in the `release/` archive. The repository [LICENSE](LICENSE) (MIT) covers only this project's own code (`src/`, docs); the components listed above belong to their respective owners and are unmodified upstream binaries from the official BepInEx distribution (BepInEx-Unity.IL2CPP-win-x64 6.0.0-pre.2 with the .NET 6.0.7 runtime). Corresponding source is available at each upstream link. Full texts of LGPL-2.1 and LGPL-3.0 are appended below; the same inventory ships inside the release archive as `THIRD-PARTY-NOTICES.txt`.
+This file covers all third-party components bundled in the release archive (the Release asset `ArmelloTooltipFix-v1.0.zip`; the same inventory ships inside it as `THIRD-PARTY-NOTICES.txt`). The repository [LICENSE](LICENSE) (MIT) covers only this project's own code (`src/`, docs); the components listed above belong to their respective owners and are unmodified upstream binaries from the official BepInEx distribution (BepInEx-Unity.IL2CPP-win-x64 6.0.0-pre.2 with the .NET 6.0.7 runtime). Corresponding source is available at each upstream link. Full texts of LGPL-2.1 and LGPL-3.0 are appended below.
 
 ---
 
