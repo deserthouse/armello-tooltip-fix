@@ -1,22 +1,18 @@
 <div align="center">
 
-[简体中文](README.md) · [繁體中文](README_TC.md) · [English](README_EN.md)
-
-<p><img src="docs/logo_english.png" width="280" alt="Armello"/></p>
-
-<p><img src="docs/slogan.png" width="380" alt="By Armellians, for Armellians"/></p>
+<img src="docs/logo_english.png" width="200" alt="Armello">
 
 # Armello Tooltip Fix
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-installation)
-[![Game](https://img.shields.io/badge/Game-Armello-orange.svg)](https://store.steampowered.com/app/290340/Armello/)
-[![Release](https://img.shields.io/github/v/release/deserthouse/armello-tooltip-fix?include_prereleases&color=yellow)](https://github.com/deserthouse/armello-tooltip-fix/releases)
+Fixes broken link tags that appear in Armello card descriptions when text wraps.
 
+[Installation](#-installation) · [The fix](#-the-fix)
+
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-installation) [![Game](https://img.shields.io/badge/Game-Armello-orange.svg)](https://store.steampowered.com/app/290340/Armello/) [![Release](https://img.shields.io/github/v/release/deserthouse/armello-tooltip-fix?include_prereleases&color=yellow)](https://github.com/deserthouse/armello-tooltip-fix/releases)
+
+[简体中文](README.md) · [繁體中文](README_TC.md) · **English**
 
 </div>
-
-<br/>
 
 > **Armello Tooltip Fix** is a [BepInEx](https://github.com/BepInEx/BepInEx) IL2CPP patch that fixes an Armello engine bug where tooltip link tags (`[/url]`) in card descriptions get split across line breaks and leak as visible garbled text.
 >
@@ -92,9 +88,11 @@ DLL references are resolved from `ArmelloDir` (`-p:ArmelloDir=...` or the `ARMEL
 - Theoretically `[/u]` (4-char) and other tags could also split, but occurrence rate is very low
 - If other tag leaks appear, the regex can be extended
 
-## 🤖 AI Usage Disclosure
+<a name="-ai-usage-disclosure"></a>
 
-This patch contains no human contribution; the vast majority of the work was done by **AI**.
+## AI disclosure
+
+This project contains no human ingredients. AI produced most of the patch and its documentation. The maintainer defines the fix and reviews it. Game assets and bundled third-party components retain their own credits.
 
 ## 📄 License
 

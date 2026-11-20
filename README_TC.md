@@ -1,21 +1,18 @@
 <div align="center">
 
-[簡體中文](README.md) · [繁體中文](README_TC.md) · [English](README_EN.md)
-
-<p><img src="docs/logo_tc.png" width="280" alt="愛門羅"/></p>
-
-<p><img src="docs/slogan.png" width="380" alt="By Armellians, for Armellians"/></p>
+<img src="docs/logo_tc.png" width="200" alt="Armello">
 
 # Armello Tooltip Fix
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-安裝)
-[![Game](https://img.shields.io/badge/Game-Armello-orange.svg)](https://store.steampowered.com/app/290340/Armello/)
-[![Release](https://img.shields.io/github/v/release/deserthouse/armello-tooltip-fix?include_prereleases&color=yellow)](https://github.com/deserthouse/armello-tooltip-fix/releases)
+修正《Armello》卡牌說明換行時露出的連結標籤。
+
+[安裝](#-安裝) · [修復方案](#-修復方案)
+
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-安裝) [![Game](https://img.shields.io/badge/Game-Armello-orange.svg)](https://store.steampowered.com/app/290340/Armello/) [![Release](https://img.shields.io/github/v/release/deserthouse/armello-tooltip-fix?include_prereleases&color=yellow)](https://github.com/deserthouse/armello-tooltip-fix/releases)
+
+[简体中文](README.md) · **繁體中文** · [English](README_EN.md)
 
 </div>
-
-<br/>
 
 > **Armello Tooltip Fix** 是一個 [BepInEx](https://github.com/BepInEx/BepInEx) IL2CPP 補丁，修復 Armello 遊戲引擎中卡牌描述的 tooltip 連結標籤（`[/url]`）在換行時被拆斷、洩露為可見亂碼文字的 bug。
 >
@@ -91,9 +88,11 @@ DLL 引用統一取自 `ArmelloDir`（`-p:ArmelloDir=...` 或環境變數 `ARMEL
 - 理論上 `[/u]`（4 字元）等其他標籤也可能跨行，但實際發生率極低
 - 如果未來出現其他標籤洩露，可擴充套件正規表示式匹配
 
-## 🤖 AI 使用宣告
+<a name="-ai-使用宣告"></a>
 
-本專案不含任何人類成分。絕大多數工作都由 **AI** 完成。
+## AI 使用聲明
+
+本專案不含任何人類成分。補丁與文件的大部分工作由 AI 完成，維護者負責確定修正目標與驗收。遊戲素材及隨附的第三方元件保留原署名。
 
 ## 📄 版權宣告
 
