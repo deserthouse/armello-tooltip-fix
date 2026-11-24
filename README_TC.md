@@ -1,18 +1,21 @@
 <div align="center">
 
-<img src="docs/logo_tc.png" width="200" alt="Armello">
+[簡體中文](README.md) · [繁體中文](README_TC.md) · [English](README_EN.md)
+
+<p><img src="docs/logo_tc.png" width="280" alt="愛門羅"/></p>
+
+<p><img src="docs/slogan.png" width="380" alt="By Armellians, for Armellians"/></p>
 
 # Armello Tooltip Fix
 
-修正《Armello》卡牌說明換行時露出的連結標籤。
-
-[安裝](#-安裝) · [修復方案](#-修復方案)
-
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-安裝) [![Game](https://img.shields.io/badge/Game-Armello-orange.svg)](https://store.steampowered.com/app/290340/Armello/) [![Release](https://img.shields.io/github/v/release/deserthouse/armello-tooltip-fix?include_prereleases&color=yellow)](https://github.com/deserthouse/armello-tooltip-fix/releases)
-
-[简体中文](README.md) · **繁體中文** · [English](README_EN.md)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-安裝)
+[![Game](https://img.shields.io/badge/Game-Armello-orange.svg)](https://store.steampowered.com/app/290340/Armello/)
+[![Release](https://img.shields.io/github/v/release/deserthouse/armello-tooltip-fix?include_prereleases&color=yellow)](https://github.com/deserthouse/armello-tooltip-fix/releases)
 
 </div>
+
+<br/>
 
 > **Armello Tooltip Fix** 是一個 [BepInEx](https://github.com/BepInEx/BepInEx) IL2CPP 補丁，修復 Armello 遊戲引擎中卡牌描述的 tooltip 連結標籤（`[/url]`）在換行時被拆斷、洩露為可見亂碼文字的 bug。
 >

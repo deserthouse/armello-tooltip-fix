@@ -1,18 +1,22 @@
 <div align="center">
 
-<img src="docs/logo_english.png" width="200" alt="Armello">
+[简体中文](README.md) · [繁體中文](README_TC.md) · [English](README_EN.md)
+
+<p><img src="docs/logo_english.png" width="280" alt="Armello"/></p>
+
+<p><img src="docs/slogan.png" width="380" alt="By Armellians, for Armellians"/></p>
 
 # Armello Tooltip Fix
 
-Fixes broken link tags that appear in Armello card descriptions when text wraps.
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-installation)
+[![Game](https://img.shields.io/badge/Game-Armello-orange.svg)](https://store.steampowered.com/app/290340/Armello/)
+[![Release](https://img.shields.io/github/v/release/deserthouse/armello-tooltip-fix?include_prereleases&color=yellow)](https://github.com/deserthouse/armello-tooltip-fix/releases)
 
-[Installation](#-installation) · [The fix](#-the-fix)
-
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-installation) [![Game](https://img.shields.io/badge/Game-Armello-orange.svg)](https://store.steampowered.com/app/290340/Armello/) [![Release](https://img.shields.io/github/v/release/deserthouse/armello-tooltip-fix?include_prereleases&color=yellow)](https://github.com/deserthouse/armello-tooltip-fix/releases)
-
-[简体中文](README.md) · [繁體中文](README_TC.md) · **English**
 
 </div>
+
+<br/>
 
 > **Armello Tooltip Fix** is a [BepInEx](https://github.com/BepInEx/BepInEx) IL2CPP patch that fixes an Armello engine bug where tooltip link tags (`[/url]`) in card descriptions get split across line breaks and leak as visible garbled text.
 >
