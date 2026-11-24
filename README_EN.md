@@ -94,7 +94,7 @@ DLL references are resolved from `ArmelloDir` (`-p:ArmelloDir=...` or the `ARMEL
 
 <a name="-ai-usage-disclosure"></a>
 
-## AI disclosure
+## 🤖 AI disclosure
 
 This project contains no human ingredients. AI produced most of the patch and its documentation. The maintainer defines the fix and reviews it. Game assets and bundled third-party components retain their own credits.
 
